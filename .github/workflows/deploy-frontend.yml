@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'src/presentation/family-ledger-ui/**'
+  workflow_dispatch: # This adds a "Run workflow" button to the UI
 
 jobs:
   build-and-deploy:
